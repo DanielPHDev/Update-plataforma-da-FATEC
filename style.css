@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+margin: 0;
+font-family:'Noto Sans', sans-serif ;
+}
+
+.header{
+background-color: #770d0d;
+width: 100vw;
+height: 5vh;
+}
+
+.header-image{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.main-login {
+width: 100vw;
+height: 100vh;
+background: #dad9d9; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 {
+    font-size: 3vw;
+    color:#770d0d;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #770d0d;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0f0f0f;
+
+}
+
+.card-login > h1 {
+    color: #ccbfbf;
+    font-weight: 800;
+    margin: 4;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #ccbfbf;
+    font-size: larger;
+    margin: 10px 0px;
+
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #ccbfbf;
+    color: #050505;
+    font-size: 12pt;
+    box-shadow: 0px 5px 10px #0f0f0f;
+    outline: none;
+    box-sizing: border-box;
+
+ 
+}
+
+.textfield > label{
+
+    color: #ccbfbf;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.textfield >input:placeholder{
+color: #770d0d;
+
+}
+
+.btn-login{
+width: 80%;
+padding: 16px 0px;
+margin: 25px;
+border: none;
+border-radius: 8px;
+outline: none;
+text-transform:uppercase ;
+font-weight: 800;
+letter-spacing: 2px;
+color: #770d0d;
+background: #dad9d9;
+cursor: pointer;
+box-shadow: 0px 10px 40px -12px #0c0000;
+}
+
+@media only screen and (max-width:950px) {
+    .card-login {
+        width: 85%;
+    }
+
+
+}
